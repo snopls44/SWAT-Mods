@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "com.author.examplemod",
+  "name": "ExampleMod",
+  "title": "Example Mod",
+  "author": {
+    "name": "Author Name",
+    "accountId": null
+  },
+  "description": "Describe what this mod adds or changes.",
+  "version": "1.0.0",
+  "website": null,
+  "support": null,
+  "license": null,
+  "tags": [
+    "example"
+  ],
+  "game": {
+    "id": "swat-game",
+    "buildGuids": []
+  },
+  "dependencies": [],
+  "loader": {
+    "name": "BepInEx",
+    "version": "5.x"
+  },
+  "files": [
+    {
+      "source": "BepInEx/plugins/ExampleMod/ExampleMod.dll",
+      "target": "BepInEx/plugins/ExampleMod/ExampleMod.dll"
+    }
+  ]
+}
